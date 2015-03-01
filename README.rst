@@ -50,9 +50,45 @@ Checkout the buildout
 
 .. code:: bash
 
-    git config --global http.sslVerify false
     git clone https://github.com/loechel/solr.buildout.git
 
     cd solr.buildout
     python bootstrap.py
+
+If the Checkout from GitHub fails due to proxy / ssl issues, set git flag to ignore ssl checks:
+
+.. code:: bash
+
+    git config --global http.sslVerify false
+
+Configure Secrets
+=================
+
+This buildout need a set of login and password for Supervisor. As you should never have usernames and passwords in version control, you have to create a secrets.cfg file that contains those required secrets. 
+
+.. code:: bash
+
+    cp secrets.cfg.tmpl secrets.cfg
+
+Run Buildout to setup Solr
+==========================
+
+This buildout contains 3 major cfg-files:
+
+* buildout.cfg
+* master.cfg
+* slave.cfg
+
+you could run 
+
+.. code:: bash
+
+    # run for buildout.cfg
+    ./bin/buildout
+
+    # run for master/slave.cfg
+    ./bin/buildout -c master.cfg
+    # or
+    ./bin/buildout -c slave.cfg
+
 
