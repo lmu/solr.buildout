@@ -15,7 +15,7 @@ environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_U
 
 [eventlistener:MemmonSolrInstance]
 process_name=MemmonSolrInstance
-command = /usr/local/Plone/solr.buildout/bin/memmon -p solr-instance=1024MB
+command = ${buildout:directory}/bin/memmon -p solr-instance=1024MB
 events = TICK_60
 priority = ${settings:supervisor-priority-eventlistener}
 environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
