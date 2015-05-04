@@ -21,6 +21,6 @@ priority = ${settings:supervisor-priority-eventlistener}
 environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 ;environment=SUPERVISOR_SERVER_URL='http://localhost:${settings:supervisor-port}',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 
-[group:eventlistener]
-programs = HttpOkSolrInstance,MemmonSolrInstance
-priority = ${settings:supervisor-priority-eventlistener}
+#[group:eventlistener]
+#programs = HttpOkSolrInstance,MemmonSolrInstance
+#priority = ${settings:supervisor-priority-eventlistener}
