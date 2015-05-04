@@ -1,0 +1,26 @@
+[program:solr-instance]
+process_name = solr-instance
+command = java -jar start.jar
+directory = ${buildout:directory}/parts/solr-instance
+priority = ${settings:supervisor-priority-solr}
+redirect_stderr = false
+
+[eventlistener:HttpOkSolrInstance]
+process_name=HttpOkSolrInstance
+command = ${buildout:directory}/bin/httpok -p solr-instance -t 20 http://localhost:8983/solr/#/
+events = TICK_60
+priority = ${settings:supervisor-priority-eventlistener}
+environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
+;environment=SUPERVISOR_SERVER_URL='http://localhost:${settings:supervisor-port}',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
+
+[eventlistener:MemmonSolrInstance]
+process_name=MemmonSolrInstance
+command = /usr/local/Plone/solr.buildout/bin/memmon -p solr-instance=1024MB
+events = TICK_60
+priority = ${settings:supervisor-priority-eventlistener}
+environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
+;environment=SUPERVISOR_SERVER_URL='http://localhost:${settings:supervisor-port}',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
+
+[group:eventlistener]
+programs = HttpOkSolrInstance,MemmonSolrInstance
+priority = ${settings:supervisor-priority-eventlistener}
