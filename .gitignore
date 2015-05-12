@@ -13,6 +13,7 @@ build/
 develop-eggs/
 downloads/
 eggs/
+etc/
 fake-eggs/
 parts/
 dist/
