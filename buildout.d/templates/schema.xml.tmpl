@@ -464,12 +464,6 @@
     See http://wiki.apache.org/solr/SpatialSearch
    -->
     <fieldType name="geohash" class="solr.GeoHashField"/>
-    <!-- An alternative geospatial field type new to Solr 4.  It supports multiValued and polygon shapes.
-      For more information about this and other Spatial fields new to Solr 4, see:
-      http://wiki.apache.org/solr/SolrAdaptersForLuceneSpatial4
-    -->
-    <fieldType name="location_rpt" class="solr.SpatialRecursivePrefixTreeFieldType"
-        geo="true" distErrPct="0.025" maxDistErr="0.000009" units="degrees" />
 
     {% if options.extraFieldTypes %}\
     <!-- Extra field types: -->
@@ -512,63 +506,87 @@
        and back compatibility is not guaranteed.  Names with both leading and
        trailing underscores (e.g. _version_) are reserved.
   -->
-  {% for index in options.indeces %}\
-  {% if index.default %}\
-  {% if index.omitnorms %}\
-    <field name="${index.name}" type="${index.type}" indexed="${index.indexed}"
-           stored="${index.stored}" required="${index.required}" multiValued="${index.multivalued}"
-           omitNorms="${index.omitnorms}" default="${index.default}" termVectors="${index.termVectors}"
-           termPositions="${index.termPositions}" termOffsets="${index.termOffsets}"
-           {% if index.storeOffsetsWithPositions %}\
-           storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
-           {% end %}\
-           />
-  {% end %}\
-  {% if not index.omitnorms %}\
-   <field name="${index.name}" type="${index.type}" indexed="${index.indexed}"
-          stored="${index.stored}" required="${index.required}" multiValued="${index.multivalued}"
-          default="${index.default}" termVectors="${index.termVectors}"
-          termPositions="${index.termPositions}" termOffsets="${index.termOffsets}"
-          {% if index.storeOffsetsWithPositions %}\
-          storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
-          {% end %}\
-          />
-  {% end %}\
-  {% end %}\
-  {% if not index.default %}\
-  {% if index.omitnorms %}\
-    <field name="${index.name}" type="${index.type}" indexed="${index.indexed}"
-           stored="${index.stored}" required="${index.required}" multiValued="${index.multivalued}"
-           omitNorms="${index.omitnorms}" termVectors="${index.termVectors}"
-           termPositions="${index.termPositions}" termOffsets="${index.termOffsets}"
-           {% if index.storeOffsetsWithPositions %}\
-           storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
-           {% end %}\
-           />
-  {% end %}\
-  {% if not index.omitnorms %}\
-    <field name="${index.name}" type="${index.type}" indexed="${index.indexed}"
-           stored="${index.stored}" required="${index.required}" multiValued="${index.multivalued}"
-           termVectors="${index.termVectors}" termPositions="${index.termPositions}"
+{% for index in options.indeces %}\
+{% if index.default %}\
+{% if index.omitnorms %}\
+    <field name="${index.name}"
+           type="${index.type}"
+           indexed="${index.indexed}"
+           stored="${index.stored}"
+           required="${index.required}"
+           multiValued="${index.multivalued}"
+           omitNorms="${index.omitnorms}"
+           default="${index.default}"
+           termVectors="${index.termVectors}"
+           termPositions="${index.termPositions}"
            termOffsets="${index.termOffsets}"
            {% if index.storeOffsetsWithPositions %}\
            storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
            {% end %}\
            />
-  {% end %}\
-  {% end %}\
-  {% end %}\
+{% end %}\
+{% if not index.omitnorms %}\
+    <field name="${index.name}"
+           type="${index.type}"
+           indexed="${index.indexed}"
+           stored="${index.stored}"
+           required="${index.required}"
+           multiValued="${index.multivalued}"
+           default="${index.default}"
+           termVectors="${index.termVectors}"
+           termPositions="${index.termPositions}"
+           termOffsets="${index.termOffsets}"
+           {% if index.storeOffsetsWithPositions %}\
+           storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
+           {% end %}\
+          />
+{% end %}\
+{% end %}\
+{% if not index.default %}\
+{% if index.omitnorms %}\
+    <field name="${index.name}"
+           type="${index.type}"
+           indexed="${index.indexed}"
+           stored="${index.stored}"
+           required="${index.required}"
+           multiValued="${index.multivalued}"
+           omitNorms="${index.omitnorms}"
+           termVectors="${index.termVectors}"
+           termPositions="${index.termPositions}"
+           termOffsets="${index.termOffsets}"
+           {% if index.storeOffsetsWithPositions %}\
+           storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
+           {% end %}\
+           />
+{% end %}\
+{% if not index.omitnorms %}\
+    <field name="${index.name}"
+           type="${index.type}"
+           indexed="${index.indexed}"
+           stored="${index.stored}"
+           required="${index.required}"
+           multiValued="${index.multivalued}"
+           termVectors="${index.termVectors}"
+           termPositions="${index.termPositions}"
+           termOffsets="${index.termOffsets}"
+           {% if index.storeOffsetsWithPositions %}\
+           storeOffsetsWithPositions="${index.storeOffsetsWithPositions}"
+           {% end %}\
+           />
+{% end %}\
+{% end %}\
+{% end %}\
 
-  {%if options.updateLog %}\
+{%if options.updateLog %}\
     <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" docValues="true" />
-  {%end%}
+{%end%}
 
     <dynamicField name="tika_*" type="ignored" />
     <dynamicField name="ignored_*" type="ignored" indexed="false" stored="false" multiValued="true"/>
 
-  {% if options.additionalFieldConfig %}\
+{% if options.additionalFieldConfig %}\
     ${options.additionalFieldConfig}
-  {% end %}\
+{% end %}\
 
   </fields>
 
