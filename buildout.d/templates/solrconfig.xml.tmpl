@@ -860,8 +860,10 @@
        Admin Handlers - This will register all the standard admin
        RequestHandlers.
     -->
+  <!--
   <requestHandler name="/admin/"
                   class="solr.admin.AdminHandlers" />
+    -->
   <!-- This single handler is equivalent to the following... -->
   <!--
      <requestHandler name="/admin/luke"       class="solr.admin.LukeRequestHandler" />
@@ -1261,6 +1263,7 @@
   <requestHandler name="/elevate" class="solr.SearchHandler" startup="lazy">
     <lst name="defaults">
       <str name="echoParams">explicit</str>
+      <int name="rows">500</int>
     </lst>
     <arr name="last-components">
       <str>elevator</str>
