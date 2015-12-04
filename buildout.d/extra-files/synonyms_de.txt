@@ -27,10 +27,121 @@ Television, Televisions, TV, TVs
 #notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
 #after us won't split it into two words.
 
+Dr,Doktor
+PD,Privat Dozent
+Prof,Professor
+
+
+# Acronyme, und Abkürzungen
+NDA,Non Disclosure Agreement,GHV,Geheimhaltungsvereinbarung
+TG,Titelgruppe
+TG,Tiefgarage
+MISU,Munich International Summer University
+SOW,Studienorientierungswoche
+VIU,Venice International University
+SIS,Studien-Informations-Service
+ZSB,Zentrale Studienberatung
+IUCM,Internationaler Universitätsclub München
+STIBET,Stipendien- und Betreuungsprogramm
+DAAD,Deutscher Akademischen Austausch Dienst
+VOL,Vergabeordnung Leistung
+VOF,Vergabeordnung Freiberufliche Leistungen
+USt,Umsatzsteuer
+SFB,Sonderforschungsbereich
+GRK,Graduiertenkolleg
+BMBF,Bundesministerium für Bildung und Forschung
+BMWi,Bundeswirtschaftsministerium
+ZIM,Zentrales Innovationsprogramm Mittelstand
+FIP,Finanzplan
+LOM,Leistungsorientierte Mittelvergabe
+IVS,Inventarisierungssystem
+DoW,Descrition of Work
+
+
+# Synonyme
+Verwendungsrichtlinien,Förderrichtlinien
+Mittelabruf,Zahlungsanforderung
+
+# Finanzen
+C043,Spendenanzeige
+F017,Drittmittelanzeige,Folgekostenbestätigung
+F002,Einverständniserklärung
+F003,Verpflichtungserklärung
+TG_71,Bundesmittel
+TG_94,Stiftungsprofessuren
+AOST-Nr,Anordnungsstellennummer,Spendenkonto,Projektkonto,Drittmittelkonto
+
+
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
-IT,EDV
-K&P,KuP,Kommunikation und Presse,Pressestelle,Presseabteilung
-VI.5,Internetdienste
-VI.4,IT-Sicherheit,Verzeichnisdienste
+Kanzler,VP-V,VPV,Vizepräsindent
 
+BÄD,Betriebsärztlicher Dienst und Gesundheitsmanagement
+K&P,KuP,Kommunikation und Presse,Pressestelle,Presseabteilung
+SuE,Strategie und Entwicklung
+
+i,dez_i,dezenat_i,Recht,Rechtsdezernat,Rechtsabteilung
+ii,dez_ii,dezernat_ii,Personal,Personaldezernat,Personalabteilung
+iii,dez_iii,dezernat_iii,Studierende
+iv,dez_iv,dezernat_iv,Liegenschaften,Liegenschaftsdezenat,Liegenschaftsabteilung,Gebäude
+v,dez_v,dezernat_v
+vi,dez_vi,dezernat_vi,IT,_IT_,EDV,IT-Abteilung,RZ,Rechenzentrum
+vii,dez_vii,dezernat_vii,Haushalt,Haushaltsdezernat,Haushaltsabteilung,Finanzen,Finanzdezernat,Finanzabteilung
+viii,dez_viii,dezernat_viii
+
+i.1,ref_i.1,referat_i.1
+i.2,ref_i.2,referat_i.2
+i.3,ref_i.3,referat_i.3
+i.4,ref_i.4,referat_i.4
+i.5,ref_i.5,referat_i.5
+i.6,ref_i.6,referat_i.6
+i.7,ref_i.7,referat_i.7
+i.8,ref_i.8,referat_i.8
+ii.1,ref_ii.1,referat_ii.1
+ii.2,ref_ii.2,referat_ii.2
+ii.3,ref_ii.3,referat_ii.3
+ii.4,ref_ii.4,referat_ii.4
+ii.5,ref_ii.5,referat_ii.5
+ii.6,ref_ii.6,referat_ii.6
+ii.7,ref_ii.7,referat_ii.7
+ii.8,ref_ii.8,referat_ii.8
+iii.1,ref_iii.1,referat_iii.1
+iii.2,ref_iii.2,referat_iii.2
+iii.3,ref_iii.3,referat_iii.3,32462500
+iii.4,ref_iii.4,referat_iii.4
+iii.5,ref_iii.5,referat_iii.5
+iii.6,ref_iii.6,referat_iii.6
+iii.7,ref_iii.7,referat_iii.7
+iii.8,ref_iii.8,referat_iii.8
+iv.1,ref_iv.1,referat_iv.1
+iv.2,ref_iv.2,referat_iv.2
+iv.3,ref_iv.3,referat_iv.3
+iv.4,ref_iv.4,referat_iv.4
+iv.5,ref_iv.5,referat_iv.5
+iv.6,ref_iv.6,referat_iv.6
+iv.7,ref_iv.7,referat_iv.7
+iv.8,ref_iv.8,referat_iv.8
+vi.1,ref_vi.1,referat_vi.1,IT-Beschaffung,EDV-Beschaffung
+vi.2,ref_vi.2,referat_vi.2,Benutzerservice,IT-Servicedesk
+vi.3,ref_vi.3,referat_vi.3,Anwendungsbetreuung,Anwendungsentwicklung
+vi.4,ref_vi.4,referat_vi.4,IT-Sicherheit,Verzeichnisdienste
+vi.5,ref_vi.5,referat_vi.5,32523500,Internetdienste
+vi.6,ref_vi.6,referat_vi.6,eUniversity
+vi.7,ref_vi.7,referat_vi.7
+vi.8,ref_vi.8,referat_vi.8
+vii.1,ref_vii.1,referat_vii.1
+vii.2,ref_vii.2,referat_vii.2
+vii.3,ref_vii.3,referat_vii.3
+vii.4,ref_vii.4,referat_vii.4,Beschaffung
+vii.5,ref_vii.5,referat_vii.5,Drittmittel
+vii.6,ref_vii.6,referat_vii.6,Körperschaften,Stiftungen
+vii.7,ref_vii.7,referat_vii.7,Finanzcontrolling
+vii.8,ref_vii.8,referat_vii.8,Hochschulmedizin
+viii.1,ref_viii.1,referat_viii.1
+viii.2,ref_viii.2,referat_viii.2
+viii.3,ref_viii.3,referat_viii.3
+viii.4,ref_viii.4,referat_viii.4
+viii.5,ref_viii.5,referat_viii.5,Graduate Center
+viii.6,ref_viii.6,referat_viii.6
+viii.7,ref_viii.7,referat_viii.7
+viii.8,ref_viii.8,referat_viii.8

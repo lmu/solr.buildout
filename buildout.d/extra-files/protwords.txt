@@ -190,10 +190,11 @@ albers
 albert
 allmannsberger
 altmann
-altmann-ott
+#altmann-ott
 amler
 anastasov
-anchiraico leiva
+anchiraico
+leiva
 anton
 anzinger
 appel
@@ -234,6 +235,7 @@ benkner
 benthien
 bernhardt
 beták
+betak
 beutlhauser
 biebelriether
 bikic
@@ -264,7 +266,9 @@ brendel
 brendle
 brodanac
 buchner
-burger-heinrich
+#burger-heinrich
+burger
+heinrich
 burglechner
 burgstaller
 burkel
@@ -288,7 +292,8 @@ czarski
 czikowski
 dönmez
 döring
-döring-buchmann
+#döring-buchmann
+buchmann
 dörner
 dünninger
 düzenli
@@ -351,7 +356,7 @@ esnouf
 förster
 fafoulias
 fahrmeir
-fahrmeir-min
+#fahrmeir-min
 faistenhammer
 falkenhain
 falkowska
@@ -434,7 +439,9 @@ gumpp
 gutmann
 gutsfeld
 häufle
-häusl-wedler
+#häusl-wedler
+häusl
+wedler
 höger
 högl
 hönig
@@ -447,13 +454,17 @@ habermann
 hack
 hager
 hahn
-haimerl-ebenhöh
+#haimerl-ebenhöh
+haimerl
+ebenhöh
 hammerer
 hansen
 hardwig
 harter
 hartl
-hartmann-dähnert
+#hartmann-dähnert
+hartmann
+dähnert
 hasan
 hasche
 hauck
@@ -472,7 +483,9 @@ hengst
 henninger
 heppert
 hermann
-herpich-göttler
+#herpich-göttler
+herpich
+göttler
 herrmann
 hesse
 hettinger
@@ -500,7 +513,9 @@ hohberg
 holzapfel
 holzner
 hopper
-hornung-sohner
+#hornung-sohner
+hornung
+sohner
 horsch
 hose
 hoyer
@@ -529,7 +544,9 @@ jung
 jungbauer
 köster
 küppers
-kadlez-gebhardt
+#kadlez-gebhardt
+kadlez
+gebhardt
 kaindl
 kaiser
 kaltenhauser

@@ -13,13 +13,18 @@
 #-----------------------------------------------------------------------
 # Use a Common Grammar Filter List to combine word token
 
+# 
 Dez
 Dezernat
-
 Ref
 Referat
+StbSt
+Stabsstelle
+
+# Wichtige Begriffskombinationen
+TG
+Formular
+Weiterbildung
 
 # von in Namen
 von
-
-
