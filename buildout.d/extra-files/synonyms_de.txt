@@ -28,8 +28,9 @@ Television, Televisions, TV, TVs
 #after us won't split it into two words.
 
 # LMU Specific Synonyms
-ZUV => Zentrale Universitätsverwaltung
-EDV => IT
-IT => EDV
-K&P => Kommunikation und Presse
+ZUV,Zentrale Universitätsverwaltung
+IT,EDV
+K&P,KuP,Kommunikation und Presse,Pressestelle,Presseabteilung
+VI.5,Internetdienste
+VI.4,IT-Sicherheit,Verzeichnisdienste
 

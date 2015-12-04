@@ -1,10 +1,10 @@
-<elevate>
+<elevate> <!-- not used -->
   <query text="Intranet">
     <doc id="40A0805C8B2480CB6AFB11A07F95E3E6" />
   </query>
  
   <query text="Serviceportal">
     <doc id="A89829BE9267AD1785AE02FBE19061C5" />
-    <doc id="40A0805C8B2480CB6AFB11A07F95E3E6" exclude="true" /> <!-- exclude this cable -->
+    <doc id="40A0805C8B2480CB6AFB11A07F95E3E6" exclude="true" />
   </query>
 </elevate>
