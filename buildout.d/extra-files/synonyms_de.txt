@@ -33,86 +33,85 @@ PD,Privat Dozent
 Prof,Professor
 
 # Acronyme, und Abkürzungen
-NDA,Non Disclosure Agreement,non-disclosure agreement,non_disclosure agreement,GHV,Geheimhaltungsvereinbarung
-CDA,confidential disclosure agreement
-TG,Titelgruppe
-TG,Tiefgarage
-MISU,Munich International Summer University
-SOW,Studienorientierungswoche
-VIU,Venice International University
-SIS,Studien-Informations-Service
-ZSB,Zentrale Studienberatung
-IUCM,Internationaler Universitätsclub München
-STIBET,Stipendien- und Betreuungsprogramm
-DAAD,Deutscher Akademischen Austausch Dienst,Deutscher Akademischer Austauschdienst
-VOL,Vergabeordnung Leistung
-VOF,Vergabeordnung Freiberufliche Leistungen
-USt,Umsatzsteuer
-SFB,Sonderforschungsbereich
-GRK,Graduiertenkolleg
-BMBF,Bundesministerium für Bildung und Forschung,Bundesministerium für Forschung und Bildung
-BMWi,Bundeswirtschaftsministerium
-ZIM,Zentrales Innovationsprogramm Mittelstand,Zentrales Innovationsprogramm für den Mittelstand
-FIP,Finanzplan
-LOM,Leistungsorientierte Mittelvergabe
-IVS,Inventarisierungssystem
-DoW,Descrition of Work
-AvH Alexander von Humboldt
+AvH,Alexander von Humboldt
 BayIntAn,Bayerisches Förderprogramm zur Anbahnung internationaler Forschungskooperationen
 BayPat,Bayerische Patentallianz GmbH
+BMBF,Bundesministerium für Bildung und Forschung,Bundesministerium für Forschung und Bildung
+BMWi,Bundeswirtschaftsministerium
+CDA,confidential disclosure agreement
 COST,European Cooperation in Science and Technology
+DAAD,Deutscher Akademischen Austausch Dienst,Deutscher Akademischer Austauschdienst
 DFG,Deutsche Forschungsgemeinschaft
+DoW,Descrition of Work
 DRT,Doctoral Research Training
 DUNS,Data Universal Numbering System
 ENB,Elitenetzwerk Bayern
 ERC,European Research Council
+F&E-Vertrag,F&E_Vertrag,Forschungs- und Entwicklungsvertrag
 FET,Future and Emerging Technologies
+FIP,Finanzplan
 FiT,Informationsschrift zur Forschungsförderung
 FLÜGGE,Bayerisches Förderprogramm zum leichteren Übergang in eine Gründerexistenz 
-FOR,DFGF Forschergruppen
+FOR,DFGF,Forschergruppen
 FP7,7. Forschungsrahmenprogramm der Europäischen Union,7 Forschungsrahmenprogramm der Europäischen Union
+GA,Grant Agreement
+GPF,Grant Preparation Form
+GRK,Graduiertenkolleg
 HTC,HighTech Campus LMU
 IF,Marie Skłodowska Curie Individual Fellowships für Postdocs
 IKT,Informations- und Kommunikationstechnologien
 IP,intellectual property
 IPID4all,International promovieren in Deutschland - for all 
 ITN,Marie Skłodowska Curie Innovative Training Networks
+IUCM,Internationaler Universitätsclub München
+IVS,Inventarisierungssystem
 KFT,Kontaktstelle für Forschungs- und Technologietransfer
 KoWi,Kontaktstelle EU der Wissenschaftsorganisationen 
+LoI,Letter of Interest
+LOM,Leistungsorientierte Mittelvergabe
+MISU,Munich International Summer University
 NCAGE,NATO Commercial and Government Entity
+NDA,Non Disclosure Agreement,non-disclosure agreement,non_disclosure agreement,GHV,Geheimhaltungsvereinbarung
 NIH,National Institutes of Health
 PRIME,P.R.I.M.E.,Postdoctoral Researchers International Mobility Experience)
 RISE,Marie Skłodowska Curie Personalaustausch
 SAM,System of Award Management
-SFB,Sonderforschungsbereich 
+SFB,Sonderforschungsbereich
 SFB/TRR,Transregio
+SIS,Studien-Informations-Service,Studien_Informations_Service
+SOW,Studienorientierungswoche
 SPP,Schwerpunktprogramm
+STIBET,Stipendien- und Betreuungsprogramm
+#TG,Tiefgarage
+TG,Titelgruppe
+USt,Umsatzsteuer
 VIP+,Validierung des technologischen und gesellschaftlichen Innovationspotenzials wissenschaftlicher Forschung
-
-LoI,Letter of Interest
-GA,Grant Agreement
-GPF,Grant Preparation Form
-F&E-Vertrag,F&E_Vertrag,Forschungs- und Entwicklungsvertrag
+VIU,Venice International University
+VOF,Vergabeordnung Freiberufliche Leistungen
+VOL,Vergabeordnung Leistung
+ZIM,Zentrales Innovationsprogramm Mittelstand,Zentrales Innovationsprogramm für den Mittelstand
+ZSB,Zentrale Studienberatung
 
 # Finanzen
-C043,Spendenanzeige
-F002,Einverständniserklärung
-F003,Verpflichtungserklärung
-F017,Drittmittelanzeige,Folgekostenbestätigung
-TG_52,Lehre@LMU,Lehrerbildung@LMU
-TG_71,Bundesmittel
+#C043,Spendenanzeige
+#F002,Einverständniserklärung
+#F003,Verpflichtungserklärung
+#F017,Drittmittelanzeige,Folgekostenbestätigung
+#TG_52,Lehre@LMU,Lehrerbildung@LMU
+#TG_71,Bundesmittel
 #TG_72,Mittel sonstiger Zuwendungs- und Auftraggeber, Spenden, internationale Programme, Industriemittel, sonstige Drittmittel
 #TG_91,Zuwendungen der DFG für Sonderforschungsbereiche, SFB
 #TG_92,Zuwendungen im Bereich des DFG-Normalverfahrens, Sachbeihilfen, Forschergruppe, FOR, Graduiertenkolleg, GRK
 #TG_93,Mittel der Europäischen Union
-TG_94,Stiftungsprofessuren
+#TG_94,Stiftungsprofessuren
 #TG_95,Zuwendungen der DFG für die Exzellenzinitiative, Graduiertenschulen, Cluster, Zukunftskonzept
-AOST-Nr,Anordnungsstellennummer,Spendenkonto,Projektkonto,Drittmittelkonto
+AOST-Nr,Anordnungsstellennummer
+#,Spendenkonto,Projektkonto,Drittmittelkonto
 
 # Synonyme
-Verwendungsrichtlinien,Förderrichtlinien
+#Verwendungsrichtlinien,Förderrichtlinien
 Mittelabruf,Zahlungsanforderung
-LMU_Webseite,LMU_Website,LMU_Websites
+LMU_Webseite,LMU_Website,LMU_Websites,Webseite,Website,Websites
 
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
