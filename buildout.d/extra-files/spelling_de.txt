@@ -16,5 +16,7 @@ its => ist
 
 
 Mühlke => Mülke
-Löchel => Loechel
+Löchel,Löckel,Löchle => Loechel
+Marks => Marx
+Bukle,Bukel => Boekel
 
