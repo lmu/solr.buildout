@@ -19,6 +19,16 @@ lmu.de
 *lmu.de
 k&p
 c&i
+s&e
+
+F&E_Vertrag
+
+# Titel
+Ph.D
+M.A
+B.A
+M.Sc
+B.Sc
 
 # Dienststellen Nummern
 i.1
@@ -171,7 +181,6 @@ referat_viii.5
 ## Besondere Namen
 
 Strasser
-von
 
 
 # Nachnamen
