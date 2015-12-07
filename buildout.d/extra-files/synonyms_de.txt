@@ -50,9 +50,9 @@ VOF,Vergabeordnung Freiberufliche Leistungen
 USt,Umsatzsteuer
 SFB,Sonderforschungsbereich
 GRK,Graduiertenkolleg
-BMBF,Bundesministerium für Bildung und Forschung
+BMBF,Bundesministerium für Bildung und Forschung,Bundesministerium für Forschung und Bildung
 BMWi,Bundeswirtschaftsministerium
-ZIM,Zentrales Innovationsprogramm Mittelstand
+ZIM,Zentrales Innovationsprogramm Mittelstand,Zentrales Innovationsprogramm für den Mittelstand
 FIP,Finanzplan
 LOM,Leistungsorientierte Mittelvergabe
 IVS,Inventarisierungssystem
@@ -60,7 +60,6 @@ DoW,Descrition of Work
 AvH Alexander von Humboldt
 BayIntAn,Bayerisches Förderprogramm zur Anbahnung internationaler Forschungskooperationen
 BayPat,Bayerische Patentallianz GmbH
-BMBF,Bundesministerium für Forschung und Bildung
 COST,European Cooperation in Science and Technology
 DFG,Deutsche Forschungsgemeinschaft
 DRT,Doctoral Research Training
@@ -85,11 +84,11 @@ NIH,National Institutes of Health
 PRIME,P.R.I.M.E.,Postdoctoral Researchers International Mobility Experience)
 RISE,Marie Skłodowska Curie Personalaustausch
 SAM,System of Award Management
-SFB,DFG Sonderforschungsbereich 
-SFB/TRR,DFG Transregio
-SPP,DFG Schwerpunktprogramm
+SFB,Sonderforschungsbereich 
+SFB/TRR,Transregio
+SPP,Schwerpunktprogramm
 VIP+,Validierung des technologischen und gesellschaftlichen Innovationspotenzials wissenschaftlicher Forschung
-ZIM,Zentrales Innovationsprogramm für den Mittelstand
+
 LoI,Letter of Interest
 GA,Grant Agreement
 GPF,Grant Preparation Form
@@ -102,25 +101,25 @@ F003,Verpflichtungserklärung
 F017,Drittmittelanzeige,Folgekostenbestätigung
 TG_52,Lehre@LMU,Lehrerbildung@LMU
 TG_71,Bundesmittel
-TG_72,Mittel sonstiger Zuwendungs- und Auftraggeber, Spenden, internationale Programme, Industriemittel, sonstige Drittmittel
-TG_91,Zuwendungen der DFG für Sonderforschungsbereiche, SFB
-TG_92,Zuwendungen im Bereich des DFG-Normalverfahrens, Sachbeihilfen, Forschergruppe, FOR, Graduiertenkolleg, GRK
-TG_93,Mittel der Europäischen Union
-TG_94,Mittel für Stiftungsprofessuren,Stiftungsprofessuren
-TG_95,Zuwendungen der DFG für die Exzellenzinitiative, Graduiertenschulen, Cluster, Zukunftskonzept
+#TG_72,Mittel sonstiger Zuwendungs- und Auftraggeber, Spenden, internationale Programme, Industriemittel, sonstige Drittmittel
+#TG_91,Zuwendungen der DFG für Sonderforschungsbereiche, SFB
+#TG_92,Zuwendungen im Bereich des DFG-Normalverfahrens, Sachbeihilfen, Forschergruppe, FOR, Graduiertenkolleg, GRK
+#TG_93,Mittel der Europäischen Union
+TG_94,Stiftungsprofessuren
+#TG_95,Zuwendungen der DFG für die Exzellenzinitiative, Graduiertenschulen, Cluster, Zukunftskonzept
 AOST-Nr,Anordnungsstellennummer,Spendenkonto,Projektkonto,Drittmittelkonto
 
 # Synonyme
 Verwendungsrichtlinien,Förderrichtlinien
 Mittelabruf,Zahlungsanforderung
-LMU_Webseite,LMU_Website,LMU_Websites,Webseitenerstellung
+LMU_Webseite,LMU_Website,LMU_Websites
 
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
 Kanzler,VP-V,VPV,Vizepräsindent
 
 BÄD,Betriebsärztlicher Dienst und Gesundheitsmanagement
-K&P,KuP,Kommunikation und Presse,Pressestelle,Presseabteilung
+K&P,KuP,Kommunikation und Presse,Kommunikation & Presse,Pressestelle,Presseabteilung
 SuE,Strategie und Entwicklung
 
 i,dez_i,dezenat_i,Recht,Rechtsdezernat,Rechtsabteilung
