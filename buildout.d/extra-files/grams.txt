@@ -22,9 +22,13 @@ StbSt
 Stabsstelle
 
 # Wichtige Begriffskombinationen
+LMU
 TG
 Formular
 Weiterbildung
+Beratung
+Förderprogramm
+Förderprogramme
 
 # von in Namen
 von
