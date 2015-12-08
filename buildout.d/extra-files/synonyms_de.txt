@@ -111,6 +111,7 @@ AOST-Nr,Anordnungsstellennummer
 # Synonyme
 #Verwendungsrichtlinien,Förderrichtlinien
 Mittelabruf,Zahlungsanforderung
+Existenzgründung,Unternehmensgründung
 LMU_Webseite,LMU_Website,LMU_Websites,Webseite,Website,Websites
 
 # LMU Specific Synonyms
