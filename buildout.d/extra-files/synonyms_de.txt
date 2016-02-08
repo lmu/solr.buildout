@@ -31,6 +31,27 @@ Television, Televisions, TV, TVs
 Dr,Doktor,PhD,Ph.D
 PD,Privat Dozent
 Prof,Professor
+StE,Staatsexamen
+B.A.,Bachelor
+M.A.,Master of Arts
+MA,Magister artium
+M.sc.,Master of Science
+bqual,berufsqualifizierender Abschluß
+D,Diplom
+C4,W3
+C3,W2
+C2,W1
+iR,im Ruhestand
+VP,Vizepräsident
+ARaL,Akademischer Rat auf Lebenszeit
+ARaZ,Akademischer Rat auf Zeit
+wA(ng),Wissenschaftlicher Angestellter / - Angestellte
+VA,Verwaltungsanagestellter/Verwaltungsangestellte
+ORR,Oberregierungsrat
+RR,Regierungsrat
+RD,Regierungsdirektor
+TOR,Technischer Oberrat
+RAR,Regierungsamtsrat
 
 # Acronyme, und Abkürzungen
 AvH,Alexander von Humboldt
@@ -40,15 +61,16 @@ BMBF,Bundesministerium für Bildung und Forschung,Bundesministerium für Forschu
 BMWi,Bundeswirtschaftsministerium
 CDA,confidential disclosure agreement
 COST,European Cooperation in Science and Technology
-DAAD,Deutscher Akademischen Austausch Dienst,Deutscher Akademischer Austauschdienst
+DAAD,Deutscher Akademischer Austausch Dienst,Deutscher Akademischer Austauschdienst
 DFG,Deutsche Forschungsgemeinschaft
-DoW,Descrition of Work
+DoW,Description of Work
 DRT,Doctoral Research Training
 DUNS,Data Universal Numbering System
 ENB,Elitenetzwerk Bayern
 ERC,European Research Council
 F&E-Vertrag,F&E_Vertrag,Forschungs- und Entwicklungsvertrag
 FET,Future and Emerging Technologies
+FHG,Frauenhofergesellschaft
 FIP,Finanzplan
 FiT,Informationsschrift zur Forschungsförderung
 FLÜGGE,Bayerisches Förderprogramm zum leichteren Übergang in eine Gründerexistenz 
@@ -70,6 +92,7 @@ KoWi,Kontaktstelle EU der Wissenschaftsorganisationen
 LoI,Letter of Interest
 LOM,Leistungsorientierte Mittelvergabe
 MISU,Munich International Summer University
+MIT,Medizintechnik und IT
 NCAGE,NATO Commercial and Government Entity
 NDA,Non Disclosure Agreement,non-disclosure agreement,non_disclosure agreement,GHV,Geheimhaltungsvereinbarung
 NIH,National Institutes of Health
@@ -84,11 +107,14 @@ SPP,Schwerpunktprogramm
 STIBET,Stipendien- und Betreuungsprogramm
 #TG,Tiefgarage
 TG,Titelgruppe
+TUM,Technische Universität München
+UB,Universitätsbibliothek
 USt,Umsatzsteuer
 VIP+,Validierung des technologischen und gesellschaftlichen Innovationspotenzials wissenschaftlicher Forschung
 VIU,Venice International University
 VOF,Vergabeordnung Freiberufliche Leistungen
 VOL,Vergabeordnung Leistung
+WR,Wissenschaftsrat
 ZIM,Zentrales Innovationsprogramm Mittelstand,Zentrales Innovationsprogramm für den Mittelstand
 ZSB,Zentrale Studienberatung
 
@@ -117,10 +143,23 @@ LMU_Webseite,LMU_Website,LMU_Websites,Webseite,Website,Websites
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
 Kanzler,VP-V,VPV,Vizepräsindent
+R,Rektor,Präsident
 
 BÄD,Betriebsärztlicher Dienst und Gesundheitsmanagement
 K&P,KuP,Kommunikation und Presse,Kommunikation & Presse,Pressestelle,Presseabteilung
 SuE,Strategie und Entwicklung
+GUK,Gesundheit Urlaub Krankheit
+HNF,Hauptnutzfläche
+aL,auf Lebenszeit
+GSI,Geschwister-Scholl-Institut
+
+WS,Wintersemester
+SS,Sommersemester
+HS,Hochschulsemester
+LS,Lehrstuhl
+HSL,Hochschulleitung LMU
+MUK,Klinik-Verwaltung Uni München
+ZVOK
 
 i,dez_i,dezenat_i,Recht,Rechtsdezernat,Rechtsabteilung
 ii,dez_ii,dezernat_ii,Personal,Personaldezernat,Personalabteilung
