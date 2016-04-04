@@ -59,6 +59,9 @@ BayIntAn,Bayerisches Förderprogramm zur Anbahnung internationaler Forschungskoo
 BayPat,Bayerische Patentallianz GmbH
 BMBF,Bundesministerium für Bildung und Forschung,Bundesministerium für Forschung und Bildung
 BMWi,Bundeswirtschaftsministerium
+Prüfungs- und Studienordnung,PStO,Prüfungsordnung,Studienordnung
+WFKM,Bayerisches Staatsministerium für Wissenschaft, Forschung und Kunst
+BKWK,Bayerisches Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst
 CDA,confidential disclosure agreement
 COST,European Cooperation in Science and Technology
 DAAD,Deutscher Akademischer Austausch Dienst,Deutscher Akademischer Austauschdienst
@@ -73,7 +76,7 @@ FET,Future and Emerging Technologies
 FHG,Frauenhofergesellschaft
 FIP,Finanzplan
 FiT,Informationsschrift zur Forschungsförderung
-FLÜGGE,Bayerisches Förderprogramm zum leichteren Übergang in eine Gründerexistenz 
+FLÜGGE,Bayerisches Förderprogramm zum leichteren Übergang in eine Gründerexistenz
 FOR,DFGF,Forschergruppen
 FP7,7. Forschungsrahmenprogramm der Europäischen Union,7 Forschungsrahmenprogramm der Europäischen Union
 GA,Grant Agreement
@@ -83,12 +86,12 @@ HTC,HighTech Campus LMU
 IF,Marie Skłodowska Curie Individual Fellowships für Postdocs
 IKT,Informations- und Kommunikationstechnologien
 IP,intellectual property
-IPID4all,International promovieren in Deutschland - for all 
+IPID4all,International promovieren in Deutschland - for all
 ITN,Marie Skłodowska Curie Innovative Training Networks
 IUCM,Internationaler Universitätsclub München
 IVS,Inventarisierungssystem
 KFT,Kontaktstelle für Forschungs- und Technologietransfer
-KoWi,Kontaktstelle EU der Wissenschaftsorganisationen 
+KoWi,Kontaktstelle EU der Wissenschaftsorganisationen
 LoI,Letter of Interest
 LOM,Leistungsorientierte Mittelvergabe
 MISU,Munich International Summer University
