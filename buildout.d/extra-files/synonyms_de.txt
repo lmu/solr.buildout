@@ -142,6 +142,7 @@ AOST-Nr,Anordnungsstellennummer
 Mittelabruf,Zahlungsanforderung
 Existenzgründung,Unternehmensgründung
 LMU_Webseite,LMU_Website,LMU_Websites,Webseite,Website,Websites
+Mitarbeiter,Mitarbeiterinnen,Beschäftigte,Beschäftigter,Beschäftigte/r,Angestellte,Angestellter,Angestellte/r
 
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
