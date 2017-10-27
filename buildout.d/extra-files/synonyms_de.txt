@@ -157,13 +157,14 @@ HNF,Hauptnutzfläche
 aL,auf Lebenszeit
 GSI,Geschwister-Scholl-Institut
 
-WS,Wintersemester
-SS,Sommersemester
+WS,Wintersemester,WiSe
+SS,Sommersemester,SoSe
 HS,Hochschulsemester
 LS,Lehrstuhl
 HSL,Hochschulleitung LMU
 MUK,Klinik-Verwaltung Uni München
 ZVOK
+Betriebsausflug,Gemeinschaftsausflug
 
 i,dez_i,dezenat_i,Recht,Rechtsdezernat,Rechtsabteilung
 ii,dez_ii,dezernat_ii,Personal,Personaldezernat,Personalabteilung
