@@ -7,7 +7,7 @@ redirect_stderr = false
 
 [eventlistener:HttpOk${PROCESSNAME}]
 process_name=HttpOk${PROCESSNAME}
-command = ${buildout:directory}/bin/httpok -p ${process_name} -t 20 http://localhost:8983/solr/#/
+command = ${buildout:directory}/bin/httpok -p ${process_name} -t 20 http://localhost:${settings:solr-port}/solr/#/
 events = TICK_60
 priority = ${settings:supervisor-priority-eventlistener}
 environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
