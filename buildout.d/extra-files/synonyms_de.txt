@@ -46,7 +46,7 @@ VP,Vizepräsident
 ARaL,Akademischer Rat auf Lebenszeit
 ARaZ,Akademischer Rat auf Zeit
 wA(ng),Wissenschaftlicher Angestellter / - Angestellte
-VA,Verwaltungsanagestellter/Verwaltungsangestellte
+VA,Verwaltungsangestellter/Verwaltungsangestellte
 ORR,Oberregierungsrat
 RR,Regierungsrat
 RD,Regierungsdirektor
@@ -146,7 +146,7 @@ Mitarbeiter,Mitarbeiterinnen,Beschäftigte,Beschäftigter,Beschäftigte/r,Angest
 
 # LMU Specific Synonyms
 ZUV,Zentrale Universitätsverwaltung
-Kanzler,VP-V,VPV,Vizepräsindent
+Kanzler,VP-V,VPV,VP,Vizepräsident
 R,Rektor,Präsident
 
 BÄD,Betriebsärztlicher Dienst und Gesundheitsmanagement

@@ -1,26 +1,26 @@
-[program:solr-instance]
-process_name = solr-instance
+[program:${process_name}]
+process_name = ${process_name}
 command = java -jar start.jar
 directory = ${buildout:directory}/parts/solr-instance
 priority = ${settings:supervisor-priority-solr}
 redirect_stderr = false
 
-[eventlistener:HttpOkSolrInstance]
-process_name=HttpOkSolrInstance
-command = ${buildout:directory}/bin/httpok -p solr-instance -t 20 http://localhost:8983/solr/#/
+[eventlistener:HttpOk${PROCESSNAME}]
+process_name=HttpOk${PROCESSNAME}
+command = ${buildout:directory}/bin/httpok -p ${process_name} -t 20 http://localhost:${settings:solr-port}/solr/#/
 events = TICK_60
 priority = ${settings:supervisor-priority-eventlistener}
 environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 ;environment=SUPERVISOR_SERVER_URL='http://localhost:${settings:supervisor-port}',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 
-[eventlistener:MemmonSolrInstance]
-process_name=MemmonSolrInstance
-command = ${buildout:directory}/bin/memmon -p solr-instance=1024MB
+[eventlistener:Memmon${PROCESSNAME}]
+process_name=Memmon${PROCESSNAME}
+command = ${buildout:directory}/bin/memmon -p ${process_name}=${settings:solr-max-ram}B
 events = TICK_60
 priority = ${settings:supervisor-priority-eventlistener}
 environment=SUPERVISOR_SERVER_URL='unix:///var/run/supervisor.sock',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 ;environment=SUPERVISOR_SERVER_URL='http://localhost:${settings:supervisor-port}',SUPERVISOR_USERNAME='${settings:supervisor-username}',SUPERVISOR_PASSWORD='${settings:supervisor-password}'
 
 #[group:eventlistener]
-#programs = HttpOkSolrInstance,MemmonSolrInstance
+#programs = HttpOk${PROCESSNAME},Memmon${PROCESSNAME}
 #priority = ${settings:supervisor-priority-eventlistener}
