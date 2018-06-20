@@ -166,6 +166,8 @@ MUK,Klinik-Verwaltung Uni München
 ZVOK
 Betriebsausflug,Gemeinschaftsausflug
 
+DSGVO => Datenschutz
+
 i,dez_i,dezenat_i,Recht,Rechtsdezernat,Rechtsabteilung
 ii,dez_ii,dezernat_ii,Personal,Personaldezernat,Personalabteilung
 iii,dez_iii,dezernat_iii,Studierende
